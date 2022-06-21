@@ -37,7 +37,7 @@ async function rollTableAndReplaceContent(content, match) {
   let table = match.replace(`[[#`, ``).replace(`]]`, ``);
   let roll;
   const resArray = [];
-  const lf = new Intl.ListFormat('en');
+  const lf = new Intl.ListFormat('en', { style: 'narrow', type: 'unit' });
   if (!game.tables.getName(table)) {
     table = await findCompendiumTable(table);
   } else {
