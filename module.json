@@ -10,7 +10,7 @@
     "./scripts/inline-tables.js"
   ],
   "manifest": "https://raw.githubusercontent.com/runaway-char/Inline-Table-Rolls/main/module.json",
-  "download": "https://github.com/runaway-char/Inline-Table-Rolls/archive/refs/tags/v0.0.7.zip",
+  "download": "https://github.com/runaway-char/Inline-Table-Rolls/archive/refs/tags/v0.0.8.zip",
   "readme": "https://github.com/runaway-char/Inline-Table-Rolls/blob/main/readme.md"
 }
 
